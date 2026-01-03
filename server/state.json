@@ -1,0 +1,205 @@
+{
+  "updated_at": "2026-01-03T23:15:09.218Z",
+  "unicorns": [
+    {
+      "offer_id": 27466790,
+      "gpu": "RTX 4090",
+      "dph": 0.3755555555555556,
+      "vram": 49140,
+      "reliability": 0.9976751,
+      "location": "unknown",
+      "score": 98426.42,
+      "is_new": true
+    },
+    {
+      "offer_id": 27802809,
+      "gpu": "RTX 4090",
+      "dph": 0.3755555555555556,
+      "vram": 49140,
+      "reliability": 0.997703,
+      "location": "unknown",
+      "score": 98426.42,
+      "is_new": true
+    },
+    {
+      "offer_id": 28938113,
+      "gpu": "RTX 4090",
+      "dph": 0.5348148148148149,
+      "vram": 49140,
+      "reliability": 0.99822,
+      "location": "unknown",
+      "score": 98394.72,
+      "is_new": true
+    },
+    {
+      "offer_id": 29070587,
+      "gpu": "RTX 4090",
+      "dph": 0.5348148148148149,
+      "vram": 49140,
+      "reliability": 0.9962565,
+      "location": "unknown",
+      "score": 98394.64,
+      "is_new": false
+    },
+    {
+      "offer_id": 28486053,
+      "gpu": "RTX 4090",
+      "dph": 0.5348148148148149,
+      "vram": 49140,
+      "reliability": 0.9959967,
+      "location": "unknown",
+      "score": 98394.63,
+      "is_new": false
+    },
+    {
+      "offer_id": 28733136,
+      "gpu": "RTX 4090",
+      "dph": 0.5362962962962963,
+      "vram": 49140,
+      "reliability": 0.9978704,
+      "location": "unknown",
+      "score": 98394.5,
+      "is_new": false
+    },
+    {
+      "offer_id": 17236276,
+      "gpu": "RTX 4090",
+      "dph": 0.14814814814814814,
+      "vram": 24564,
+      "reliability": 0.9931362,
+      "location": "unknown",
+      "score": 49437.73,
+      "is_new": true
+    },
+    {
+      "offer_id": 27964978,
+      "gpu": "RTX 4090",
+      "dph": 0.15214814814814812,
+      "vram": 24564,
+      "reliability": 0.9886811,
+      "location": "unknown",
+      "score": 49430.45,
+      "is_new": true
+    },
+    {
+      "offer_id": 29402998,
+      "gpu": "RTX 4090",
+      "dph": 0.17155555555555554,
+      "vram": 24564,
+      "reliability": 0.9977966,
+      "location": "unknown",
+      "score": 49401.07,
+      "is_new": false
+    },
+    {
+      "offer_id": 29457725,
+      "gpu": "RTX 4090",
+      "dph": 0.2022222222222222,
+      "vram": 24564,
+      "reliability": 0.9996355,
+      "location": "unknown",
+      "score": 49365.79,
+      "is_new": true
+    },
+    {
+      "offer_id": 29475801,
+      "gpu": "RTX 4090",
+      "dph": 0.2022222222222222,
+      "vram": 24564,
+      "reliability": 0.9982547,
+      "location": "unknown",
+      "score": 49365.73,
+      "is_new": false
+    },
+    {
+      "offer_id": 25307885,
+      "gpu": "RTX 4090",
+      "dph": 0.2022222222222222,
+      "vram": 24564,
+      "reliability": 0.9903713,
+      "location": "unknown",
+      "score": 49365.42,
+      "is_new": true
+    },
+    {
+      "offer_id": 29299680,
+      "gpu": "RTX 4090",
+      "dph": 0.2022222222222222,
+      "vram": 24564,
+      "reliability": 0.9886466,
+      "location": "unknown",
+      "score": 49365.35,
+      "is_new": false
+    },
+    {
+      "offer_id": 29299882,
+      "gpu": "RTX 4090",
+      "dph": 0.2022222222222222,
+      "vram": 24564,
+      "reliability": 0.987282,
+      "location": "unknown",
+      "score": 49365.29,
+      "is_new": false
+    },
+    {
+      "offer_id": 23780655,
+      "gpu": "RTX 4090",
+      "dph": 0.2288888888888889,
+      "vram": 24564,
+      "reliability": 0.9964964,
+      "location": "unknown",
+      "score": 49342.62,
+      "is_new": true
+    },
+    {
+      "offer_id": 29209345,
+      "gpu": "RTX 4090",
+      "dph": 0.2414814814814815,
+      "vram": 24564,
+      "reliability": 0.9869495,
+      "location": "unknown",
+      "score": 49333.12,
+      "is_new": false
+    },
+    {
+      "offer_id": 29316588,
+      "gpu": "RTX 4090",
+      "dph": 0.2414814814814815,
+      "vram": 24564,
+      "reliability": 0.9819854,
+      "location": "unknown",
+      "score": 49332.92,
+      "is_new": true
+    },
+    {
+      "offer_id": 29262452,
+      "gpu": "RTX 4090",
+      "dph": 0.24222222222222223,
+      "vram": 24564,
+      "reliability": 0.9840105,
+      "location": "unknown",
+      "score": 49332.5,
+      "is_new": true
+    },
+    {
+      "offer_id": 29085237,
+      "gpu": "RTX 4090",
+      "dph": 0.24222222222222223,
+      "vram": 24564,
+      "reliability": 0.9838461,
+      "location": "unknown",
+      "score": 49332.49,
+      "is_new": false
+    },
+    {
+      "offer_id": 28538729,
+      "gpu": "RTX 4090",
+      "dph": 0.24888888888888885,
+      "vram": 24564,
+      "reliability": 0.9983083,
+      "location": "unknown",
+      "score": 49328.65,
+      "is_new": true
+    }
+  ]
+}
