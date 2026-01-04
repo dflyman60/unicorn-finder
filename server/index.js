@@ -2,11 +2,23 @@ import express from "express";
 import fs from "fs";
 import { searchOffers } from "./vast.js";
 import { scoreOffer } from "./score.js";
+import cors from "cors"
+
+const app = express()
+
+// ✅ CORS MUST BE BEFORE ROUTES
+app.use(
+  cors({
+    origin: "*", // quick unblock
+    methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+)
+app.options("*", cors())
 
 const PORT = process.env.PORT || 3000;
 const STATE_FILE = "./state.json";
 
-const app = express();
 let state = { updated_at: null, unicorns: [] };
 
 // Load previous state if present
@@ -17,10 +29,7 @@ if (fs.existsSync(STATE_FILE)) {
 async function pollVast() {
   try {
     const data = await searchOffers();
-    // console.log("RAW VAST RESPONSE:", Object.keys(data));1
-
     const offers = Array.isArray(data?.offers) ? data.offers : (data?.offers ? [data.offers] : []);
-
 
     const scored = offers.map(o => ({
       offer_id: o.id ?? o.ask_contract_id ?? o.contract_id,
@@ -63,7 +72,7 @@ app.get("/api/unicorns", (_, res) => {
   res.json(state);
 });
 
-
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`🦄 Unicorn Finder running on :${PORT}`);
 });
+
