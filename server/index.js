@@ -63,7 +63,7 @@ app.get("/api/unicorns", (_, res) => {
   res.json(state);
 });
 
-app.listen(PORT, () =>
-  console.log(`🦄 Unicorn Finder running on :${PORT}`)
-);
 
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`🦄 Unicorn Finder running on :${PORT}`);
+});
